@@ -1,0 +1,37 @@
+# Arquivos de ambiente Anaconda/Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env/
+venv/
+env/
+*.conda
+conda-meta/
+envs/
+pkgs/
+
+# Dados (geralmente não versionar dados grandes ou brutos)
+#Ignora todos os arquivos dentro de data/raw/
+data/raw/  
+# data/processed/ # Se quiser ignorar também os processados, descomente esta linha
+# *.csv
+*.xlsx
+# *.json
+
+# Jupyter Notebook específicos
+.ipynb_checkpoints/
+*.ipynb-checkpoint
+
+# Power BI (arquivos .pbix podem ser grandes, considere não versioná-los ou versionar apenas as versões finais)
+# *.pbix # Descomente para ignorar arquivos .pbix
+# *.pbixd
+# *.pbit
+# *.pbitm
+
+# Outros arquivos temporários ou de sistema
+*.log
+*.tmp
+# Windows
+Thumbs.db
+
+#*.DS_Store # macOS
